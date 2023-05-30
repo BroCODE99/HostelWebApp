@@ -6,7 +6,7 @@ class Database {
     private $severName = "localhost";
     private $userName = "root";
     private $password = "";
-    private $database_name = "school_management_system_DB";
+    private $database_name = "ostello_DB";
     private $connect;
 
     
