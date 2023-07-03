@@ -21,17 +21,17 @@
                 <!-- tabs -->
                 <section class="tabs">
                     <ul class="tab-links">
-                        <li class="active-tab tab-item" > 
+                        <li class="tab-item" > 
                             <a href="index.php"> <span> <i class="fas fa-th-large" ></i> </span>   <span>Dashboard</span> </a>
                         </li>
                         <li class="tab-item" > 
-                            <a href="tenants.php"> <span> <i class="fas fa-users"></i></span> <span>Tenants</span>  </a>
+                            <a href="tenants.php"> <span> <i class="fas fa-users" ></i> </span>   <span>Tenants</span>  </a>
+                        </li>
+                        <li class="active-tab tab-item" > 
+                            <a href="rooms.php"> <span> <i class="fas fa-city" ></i> </span>   <span>Rooms</span></a>
                         </li>
                         <li class="tab-item" > 
-                            <a href="rooms.php"> <span> <i class="fas fa-city" ></i> </span> <span>Rooms</span></a>
-                        </li>
-                        <li class="tab-item" > 
-                            <a href="settings.php"> <span> <i class="fas fa-cogs" ></i> </span> <span>Settings</span></a>
+                            <a href="settings.php"> <span> <i class="fas fa-cogs" ></i> </span>   <span>Settings</span></a>
                         </li>
                     </ul>
                 </section>
@@ -46,6 +46,9 @@
             <!-- navbar -->
             <?php include_once 'navbar.php' ?>
             <!--  -->
+
+
+
 
 
             <div class="page-content-container">
